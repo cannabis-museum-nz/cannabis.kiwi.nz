@@ -18,7 +18,7 @@ At New Zealand’s FIRST EVER Medicinal Cannabis Festival and Expo! 💥🌿
 
 🏛️ Hosted at [**‘Hopetoun Alpha’**](https://www.karangahaperoad.com/hopetoun-alpha), the future site of New Zealand’s Cannabis Museum ~ ft Auckland’s first Medicinal Cannabis Dispensary and BYO Medicinal Cannabis events venue! Right in the heart of Auckland City 🌆
 
-This time it’s fully legit 👌🏽(for prescribed patients)! 🌿✨
+This time it’s fully legit 👌🏽([for prescribed patients](https://www.mcanz.org.nz/reddit/guide))! 🌿✨
 
 --------
 
