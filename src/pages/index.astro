@@ -2,13 +2,65 @@
 import PageMeta from "../components/PageMeta.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
-import { SITE_TITLE } from "../config";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 ---
 
 <PageLayout>
   <PageMeta title={`${SITE_TITLE}`} slot="meta" />
   <Fragment slot="main">
-    <section class="relative">
+    <div>
+        <div class="relative isolate flex flex-col">
+        <div class="overflow-hidden">
+          <div class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
+            <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                    {SITE_DESCRIPTION}
+                </h1>
+                <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                    Whakamana Cannabis Museum was founded in 2013 as a pioneering institution in Dunedin, New Zealand,
+                    with a vision to be a center for cannabis education, information, and law reform activism.<br /><br />
+                    Over the past decade, the museum has evolved and grown, along with New Zealand's cannabis culture.
+                </p>
+                <div class="mt-10 flex items-center gap-x-6">
+                  <a href="/contact" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Lets Talk</a>
+                  <a href="/event/august-gala" class="text-sm font-semibold leading-6 text-gray-900">Next Event <span aria-hidden="true">→</span></a>
+                </div>
+              </div>
+              <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+                <div class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                  <div class="relative">
+                    <img src="/2023/cannabis/cannabis-1.jpeg" alt="Medleaf Shishkaberry Medical Cannabis Whole Flower" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                  </div>
+                </div>
+                <div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                  <div class="relative">
+                    <img src="/2023/cannabis/cannabis-2.png" alt="Medleaf GG#4 Medical Cannabis Whole Flower" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                  </div>
+                  <div class="relative">
+                    <img src="/2023/cannabis/cannabis-3.jpeg" alt="Kikuya Arroyo Medical Cannabis Whole Flower" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                  </div>
+                </div>
+                <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                  <div class="relative">
+                    <img src="/2023/cannabis/cannabis-4.jpeg" alt="Kikuya Peak Medical Cannabis Whole Flower" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                  </div>
+                  <div class="relative">
+                    <img src="/2023/cannabis/cannabis-5.jpeg" alt="Kikuya Dune Medical Cannabis Whole Flower" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section  class="max-w-3xl mx-auto px-4 sm:px-8 py-4 relative">
         <div class="rounded-md relative isolate flex items-center gap-x-6 overflow-hidden bg-blue-100 px-6 py-2.5 sm:px-3.5 justify-center mb-5 bg-gray-0--">
             <p class="text-sm leading-6 text-gray-900">
                 To kick start things we will be having a fundraising gig on August 12th.{' '}

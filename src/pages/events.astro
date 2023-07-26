@@ -24,7 +24,7 @@ const sortedPosts = posts
 
 <PageLayout>
   <PageMeta title={`Events | ${SITE_TITLE}`} slot="meta" />
-  <section slot="main">
+  <section slot="main" class="max-w-3xl mx-auto px-4 sm:px-8 py-4">
     <ul>
       {
         sortedPosts.map((post) => {

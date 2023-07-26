@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "Cannabis Museum NZ";
 export const SITE_DESCRIPTION =
-  "Whakamana Cannabis Museum O Aotearoa";
+  "Whakamana Cannabis Museum o Aotearoa";
 export const TWITTER_HANDLE = "";
 export const MY_NAME = "";
 
