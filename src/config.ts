@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Cannabis Museum NZ";
 export const SITE_DESCRIPTION =
   "Whakamana Cannabis Museum o Aotearoa";
-export const TWITTER_HANDLE = "";
+export const TWITTER_HANDLE = "@CannabisMuseum";
 export const MY_NAME = "";
 
 // setup in astro.config.mjs

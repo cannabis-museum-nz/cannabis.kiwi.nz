@@ -63,4 +63,4 @@ const { meta, og, twitter } = getPageMeta({
     <meta property="twitter:image:alt" content={twitter.imageAlt} />
   )
 }
-<!-- {twitter.url && <meta property="twitter:url" content={twitter.url} />} -->
+{twitter.url && <meta property="twitter:url" content={twitter.url} />}
