@@ -1,0 +1,41 @@
+---
+import PageMeta from "../components/PageMeta.astro";
+import PageLayout from "../layouts/PageLayout.astro";
+import Intro from "../components/Intro.astro";
+import { SITE_TITLE } from "../config";
+---
+
+<PageLayout>
+  <PageMeta title={`${SITE_TITLE}`} slot="meta" />
+  <Fragment slot="main">
+    <section class="">
+        <div class="rounded-md relative isolate flex items-center gap-x-6 overflow-hidden bg-blue-100 px-6 py-2.5 sm:px-3.5 justify-center mb-5 bg-gray-0--">
+            <p class="text-sm leading-6 text-gray-900">
+                To kick start things we will be having a fundraising gig on August 12th.{' '}
+                <a href="/event/august-gala" class="whitespace-nowrap font-semibold">
+                    See details here&nbsp;<span aria-hidden="true">&rarr;</span>
+                </a>
+            </p>
+        </div>
+        <p>
+            After over 3 years the conditions are finally right for us to attempt to re-open the museum in Auckland!
+        </p>
+        <br />
+        <p>
+            Cannabis flower is now available on prescription, and it's open carry buds California style for those of us who jump through that hoop. Combined with tourism returning, and the restrictions on hospitality businesses all gone, the time has definitely come for our community to have a venue to celebrate and positively promote our culture again.
+        </p>
+        <br />
+        <p>
+            The final piece of the puzzle was finding a supportive landlord and after 3 months of searching high and low that landlord has finally been found! What I can reveal at the moment is that this is a very majestic heritage building with a great crowd capacity that will cement our reputation as a top tier institution right in the heart of the Auckland CBD.
+        </p>
+        <br />
+        <p>
+            The sheer nature of the prime real estate market in Auckland means it will be very expensive. To kick start things we will be having a fundraising gig on August 12th with further details to be announced soon. We are looking for expressions of interest from bands, artists, food businesses, volunteers etc. who could potentially contribute to the gig, bearing in mind that the primary purpose is fundraising and we need to keep our costs as low as possible. This will be the first mainstream legal event in New Zealand where cannabis consumption by prescribed patients will be specifically allowed and catered to.
+        </p>
+        <br />
+        <p>
+            The money raised will go towards re-establishing the museum as a proactive, pro-cannabis, education, information, and communication centre. We need to capitalise on our near victory in 2020, and newfound 50% public support, to push forward to the California style reality that we deserve.
+        </p>
+    </section>
+  </Fragment>
+</PageLayout>

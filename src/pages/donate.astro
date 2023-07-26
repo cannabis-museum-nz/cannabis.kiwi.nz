@@ -1,0 +1,41 @@
+---
+import PageMeta from "../components/PageMeta.astro";
+import PageLayout from "../layouts/PageLayout.astro";
+import Intro from "../components/Intro.astro";
+import { SITE_TITLE } from "../config";
+import License from "../components/License.astro";
+---
+
+<PageLayout>
+  <PageMeta title={`Donate | ${SITE_TITLE}`} slot="meta" />
+  <Fragment slot="main">
+    <p>
+        <div class="rounded-md relative isolate flex items-center gap-x-6 overflow-hidden bg-blue-100 px-6 py-2.5 sm:px-3.5 justify-center mb-5 bg-gray-0--">
+            <p class="text-sm leading-6 text-gray-900">
+                To kick start things we will be having a fundraising gig on August 12th.{' '}
+                <a href="/event/august-gala" class="whitespace-nowrap font-semibold">
+                    See details here&nbsp;<span aria-hidden="true">&rarr;</span>
+                </a>
+            </p>
+        </div>
+        We are looking for expressions of interest from bands, artists, food businesses, volunteers etc. who could potentially contribute to the gig, bearing in mind that the primary purpose is fundraising and we need to keep our costs as low as possible. This will be the first mainstream legal event in New Zealand where cannabis consumption by prescribed patients will be specifically allowed and catered to.
+        <br /><br />
+        The money raised will go towards re-establishing the museum as a proactive, pro-cannabis, education, information, and communication centre. We need to capitalise on our near victory in 2020, and newfound 50% public support, to push forward to the California style reality that we deserve.
+        <br /><br />
+        To make all this happen we need get the ball rolling with donations as soon as possible. First and foremost we want to solicit donations from people around the country who are willing to support the cause of proactive, pro-cannabis, public communication and education purely for the public good. We would be very appreciative of any one off donations or especially weekly automatic payments into the bank account below.
+    </p>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <p>
+        Aotearoa CLEAR Charities
+        <br />
+        38-9014-0732393-00
+    </p>
+  </Fragment>
+</PageLayout>
+<style>
+
+</style>

@@ -1,0 +1,15 @@
+
+
+#main.article-content article a {
+    margin: 1em 0;
+    display: block;
+}
+
+.clickable,
+#main.article-content article a {
+    color: #065C84;
+}
+
+#main.article-content article hr {
+    margin: 1em 0;
+}

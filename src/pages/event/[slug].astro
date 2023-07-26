@@ -1,0 +1,41 @@
+---
+import { readOne, readAll } from "../../lib/markdoc/read";
+import { blog } from "../../lib/markdoc/frontmatter.schema";
+import Renderer from "../../components/Renderer.astro";
+import BlogPostMeta from "../../components/BlogPostMeta.astro";
+import ContentLayout from "../../layouts/ContentLayout.astro";
+import { SITE_URL } from "../../config";
+import { getEventSlugs, getEventPost } from "../../lib/events";
+import { XMarkIcon } from '@heroicons/react/20/solid';
+import License from "../../components/License.astro";
+
+export async function getStaticPaths() {
+  return getEventSlugs();
+}
+
+const { slug } = Astro.params;
+
+const { content, frontmatter, ogImageAbsoluteUrl } = await getEventPost(slug);
+---
+
+<ContentLayout title={frontmatter.title} date={frontmatter.date}>
+  <BlogPostMeta
+    title={frontmatter.title}
+    description={frontmatter.external ? undefined : frontmatter.description}
+    publishDate={frontmatter.date.toISOString()}
+    pagePath={`/event/${slug}`}
+    ogImageAbsoluteUrl={ogImageAbsoluteUrl}
+    slot="meta"
+  />
+  {
+    frontmatter.tickets ? (
+        <div slot="alert" class="rounded-md relative isolate flex items-center gap-x-6 overflow-hidden bg-blue-100 px-6 py-2.5 sm:px-3.5 justify-center mb-5 bg-gray-0--">
+            <a href={frontmatter.tickets} target="_blank"  class="text-sm leading-6 text-gray-900 whitespace-nowrap font-semibold">
+                Get tickets here!&nbsp;<span aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+    ) : ""
+  }
+  <Renderer content={content} slot="content" />
+</ContentLayout>
+
