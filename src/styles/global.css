@@ -1,12 +1,14 @@
 
 
-#main.article-content article a {
+#main.article-content article > p:first-child > a,
+#main.article-content article > p:last-child > a  {
     margin: 1em 0;
     display: block;
 }
 
 .clickable,
-#main.article-content article a {
+#main.article-content article > p:first-child > a,
+#main.article-content article > p:last-child > a {
     color: #065C84;
 }
 
