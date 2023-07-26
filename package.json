@@ -21,6 +21,7 @@
   "author": "Whakamana Cannabis Museum",
   "license": "MIT",
   "dependencies": {
+    "@astrojs/netlify": "^2.5.0",
     "@astrojs/prism": "^1.0.2",
     "@astrojs/react": "^2.2.1",
     "@astrojs/rss": "^2.0.0",

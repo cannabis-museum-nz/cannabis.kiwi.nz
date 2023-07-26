@@ -1,7 +1,7 @@
 /* eslint-disable turbo/no-undeclared-env-vars */
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
-import vercelStatic from '@astrojs/vercel/static';
+import { netlifyStatic } from '@astrojs/netlify';
 import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
@@ -33,6 +33,6 @@ export default defineConfig({
   site: BASE_URL,
   integrations: [sitemap(), tailwind(), react()],
   output: "static",
-  adapter: vercelStatic(),
+  adapter: netlifyStatic(),
   publicDir: "public"
 });
