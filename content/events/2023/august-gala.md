@@ -65,3 +65,8 @@ What else is happening?!
 - Outdoor Medicating Zone 🌿💨
 
 [Looking for the public open day?](/event/august-open-day)
+
+---------
+
+![Schedule Image Part 1](/2023/schedule-part1.png)
+![Schedule Image Part 2](/2023/schedule-part2.png)
