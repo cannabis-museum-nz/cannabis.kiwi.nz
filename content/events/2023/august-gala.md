@@ -64,6 +64,8 @@ What else is happening?!
 - Terps & Co Bar 🍸🍹
 - Outdoor Medicating Zone 🌿💨
 
+---------
+
 [Looking for the public open day?](/event/august-open-day)
 
 ---------
