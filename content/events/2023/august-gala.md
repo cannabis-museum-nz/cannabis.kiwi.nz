@@ -6,6 +6,10 @@ tickets: https://www.cosmicticketing.co.nz/event/6826
 
 [Looking for the public open day?](/event/august-open-day)
 
+![Green Horizons Medicinal Cannabis Festival & Expo: VIP Gala Opening 12th August](/2023/poster-green2_enlarged-final.jpg)
+
+----------
+
 Educate 🔬👨🏼‍🎓
 
 Innovate 💡
@@ -22,9 +26,11 @@ This time it’s fully legit 👌🏽([for prescribed patients](https://www.mcan
 
 --------
 
-**WHEN 🗓️:** Saturday August 12th
+**WHEN 🗓️:** Saturday August 12th, 10am
 
 **WHAT:** Gala Fundraiser Event
+
+**SCHEDULE:** [Download schedule here](/2023/schedule-green-horizons-gala.pdf)
 
 ---------
 
